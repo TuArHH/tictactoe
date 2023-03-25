@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(5, 60, 122) !important;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 35px;
+  color: #1bb997;
+}
